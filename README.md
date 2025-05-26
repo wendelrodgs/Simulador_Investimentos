@@ -1,50 +1,50 @@
+# Projeto realizado com a DIO: Simulador de Investimentos
 
-# 📊 Simulador de Investimentos
+## Descrição
+Esta planilha foi desenvolvida em um curso da DIO em parceria com o Santander. O projeto é um simulador de investimentos em FII's, onde é possível visualizar a evolução do investimento considerando a inserção de dados como: valor investido mensalmente, quantidade de anos investido e taxa de rendimento mensal.
 
-## ✅ Descrição Geral
-Esta planilha foi desenvolvida para simular investimentos financeiros ao longo do tempo, possibilitando a visualização da evolução do patrimônio considerando aportes mensais, rentabilidade e tempo de aplicação. O objetivo é auxiliar na tomada de decisões relacionadas a investimentos e planejamento financeiro pessoal.
 
-## 🗂️ Estrutura da Planilha
+## Instruções
 
-### 1. Aba: Parâmetros
-**Finalidade:** Inserção das variáveis principais da simulação.
+1. Preencha as células brancas com os valores desejados.
+   
+## Planilha
+
+### 1. Tabela Configurações
+**Finalidade:** Retornar o preço sugestivo de investimento mensal.
 
 **Campos:**
-- **Investimento Inicial:** valor aplicado no início.
-- **Aporte Mensal:** valor que será investido mensalmente.
-- **Rentabilidade Mensal (%):** estimativa da taxa de retorno ao mês.
-- **Período (meses):** duração da simulação.
+- **Salário:** Valor salário recebido no mês.
+- **Rendimento Carteira (%):** estimativa da taxa de retorno ao mês.
+- **Sugestão de investimento (30%):** Retorna o preço mensal sugestivo de investimento.
 
-**Como usar:** Preencha os valores de acordo com seus objetivos financeiros.
+**Como usar:** preencher ou alterar os dados das células brancas, os resultados aparecerão automaticamente.
 
-### 2. Aba: Simulação
-**Finalidade:** Exibe o resultado da simulação mês a mês.
+### 2. Tabela Investimento Mensal
+**Finalidade:** Exibe o resultado da simulação.
 
 **Colunas:**
-- **Mês:** sequência temporal da simulação.
-- **Saldo Inicial:** valor acumulado no início de cada mês.
-- **Aporte:** valor investido naquele mês.
-- **Rendimento:** valor obtido com a rentabilidade mensal.
-- **Saldo Final:** soma do saldo inicial, aporte e rendimento.
+- **.Quanto devo investir por mes?:** valor desejado investido por mês. 
+- **.Por quantos anos?:** tempo desejado de investimento em anos.
+- **.Taxa de Rendimento Mensal:** taxa de rendimento mensal do investimento.
+- **.Quanto de patrimonio acumulado terei?:** valor final obtido.
+- **.Quanto é o dividendo Mensal?:** dividendo mensal recebido após fim do investimento.
 
-**Como usar:** Os resultados são preenchidos automaticamente com base nos parâmetros inseridos.
+**Como usar:** preencher ou alterar os dados das células brancas, os resultados aparecerão automaticamente.
 
-### 3. Aba: Gráficos
-**Finalidade:** Apresentação visual da evolução do investimento.
+### 3. Tabela Cenários
+**Finalidade:** Apresentação do investimento em tempos pré determinados.
 
 **Conteúdo:**
-- Gráfico de evolução do saldo ao longo do tempo.
-- Comparativo entre aporte, rendimento e saldo final.
+- Tabela que trás como resultado o valor investido total e seus dividendo em tempo determinado: 2, 5, 10, 20 e 30 anos.
 
-**Como usar:** Visualize o impacto do tempo e da rentabilidade na formação do patrimônio.
+**Como usar:** os resultados são preenchidos automaticamente.
 
-## ⚙️ Instruções de Uso
+### 4. Tabela Perfil
+**Finalidade:** Escolher o tipo de investidor
 
-1. Acesse a aba **Parâmetros** e preencha os valores conforme sua realidade ou projeção.
-2. Acompanhe o resultado detalhado na aba **Simulação**.
-3. Analise a evolução patrimonial por meio dos **Gráficos** gerados automaticamente.
+- **Conteúdo:**
+- É possível alterar o tipo de investidor entre: conservador, moderado e agressivo
 
-## ℹ️ Observações
+***OBS:** o tipo de investidor e os dados retornados são meramente ilustrativos, podendo ser alterado na Sheet TabelaAPOIO; **Os dados altearados ou escolhido não interfere na simulação**
 
-- A planilha não considera impostos, inflação ou taxas administrativas.
-- Os resultados são estimativas e não configuram garantia de rentabilidade.
